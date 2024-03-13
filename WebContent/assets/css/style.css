@@ -1,0 +1,94 @@
+body {
+	background-color: #f2f2f2;
+}
+
+.form-signin {
+	width: 100%;
+	max-width: 320px;
+	margin: auto;
+}
+
+.form-signin .form-floating:focus-within {
+	z-index: 2;
+}
+
+.form-signin input[type="button"] {
+	border: none;
+	border-radius: none;
+}
+
+.form-signin input[type="text"] {
+	margin-bottom: -1px;
+	border-bottom-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+.sidebar {
+	height: 100%;
+	width: 280px;
+	position: fixed;
+	z-index: 1;
+}
+
+.content {
+	margin-left: 280px;
+	width: auto;
+}
+
+.link-dark label {
+	cursor: pointer;
+}
+
+.container {
+	max-width: 800px;
+	min-width: 600px;
+}
+
+.report-container {
+	max-width: 850px;
+	min-width: 850px;
+	margin: 0 auto;
+}
+
+.card {
+	max-width: 100%;
+	min-width: 820px;
+}
+
+.report-info {
+    margin-left: 20px;
+    font-family: Cambria,Georgia,serif;
+	font-size: 12pt;
+	line-height: 14pt;
+}
+
+@media only screen and (max-width: 850px) {
+	.sidebar hr {
+		display: none;
+	}
+
+	.sidebar {
+		width: 100px;
+	}
+
+	.content {
+		margin-left: 100px;
+	}
+
+	.staff-name {
+		display: none;
+	}
+
+	.staff-level {
+		display: none;
+	}
+
+	.link-name {
+		display: none;
+	}
+}
